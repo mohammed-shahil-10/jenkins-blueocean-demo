@@ -1,0 +1,10 @@
+pipeline{ //asking to do CI/CD pipeline
+  agenyt any //can run on any agent
+  stages{ //telling hem to build the stage
+    stage('Build'){
+      steps{
+        echo'Hello from Mohammed Shahil, Jenkins Pipeline'
+      }
+    }
+  }
+}
